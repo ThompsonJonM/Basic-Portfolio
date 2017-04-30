@@ -1,0 +1,11 @@
+/* This should be interesting*/
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	font-family: arial;
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
