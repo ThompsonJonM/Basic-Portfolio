@@ -6,31 +6,42 @@
 </head>
 <body>
 
-	<header class="header">
-		Jonathan Thompson
-			<div id="headerlinks">
-				<a href="#">About</a>
-				<a href="#">Portfolio</a>
-				<a href="#">Contact</a>
-			</div>
+	<header id="headerbar">
+		<div id="headerlinks">
+			<a href="#">About</a> |
+			<a href="#">Portfolio</a> |
+			<a href="#">Contact</a>
+		</div>
+		<div>
+			<h2 id="headername">Jonathan Thompson</h2>
+		</div>
 	</header>
 
+		<!-- Used section instead of div due to background -->
 	<section>
-		<h2>Portfolio</h2>
-		<hr>
-		<img id="portfolio1" src="#">
-		<img id="portfolio2" src="#">
-		<img id="portfolio3" src="#">
-		<img id="portfolio4" src="#">
-		<img id="portfolio5" src="#">
-	</section>
 
-	<section class="connect">
-		<h3>Connect with Me</h3>
-		<hr id=hr2>
-		<img id="github" src="/assets/images/github.png">
-		<img id="linkedin" src="/assets/images/linkin.png">
-		<img id="stack" src="/assets/images/stack.png">
+		<!--this section is to create a gap between head and body-->
+		<div id="gap1">
+		</div>
+
+		<div>
+			<h2>Portfolio</h2>
+				<hr>
+				<img id="portfolio1" src="#">
+				<img id="portfolio2" src="#">
+				<img id="portfolio3" src="#">
+				<img id="portfolio4" src="#">
+				<img id="portfolio5" src="#">
+		</div>
+
+		<div class="connect">
+			<h3>Connect with Me</h3>
+				<hr id=hr2>
+				<img id="github" src="./assets/images/github.png">
+				<img id="linkedin" src="./assets/images/linkedin.png">
+				<img id="stack" src="./assets/images/stack.png">
+		</div>
+
 	</section>
 
 	<footer class="footer">
