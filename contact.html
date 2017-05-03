@@ -6,48 +6,53 @@
 </head>
 <body>
 
+	<!-- This header is totally jank but it works -->
 	<header id="headerbar">
-		<div id="headerlinks">
+		<section id="headerlinks">
 			<a href="#">About</a> |
 			<a href="#">Portfolio</a> |
 			<a href="#">Contact</a>
-		</div>
-		<div>
+		</section>
+		<section>
 			<h2 id="headername">Jonathan Thompson</h2>
-		</div>
+		</section>
 	</header>
 
 		<!-- Used section instead of div due to background -->
-	<section>
+	<section id="backgroundimg">
 
 		<!--this section is to create a gap between head and body-->
-		<div id="gap1">
-		</div>
-
-			<div id="contacttext">
-				<h2>Contact</h2>
-				<hr>
-					<form>
-						<fieldset>
-							<p>Name</p>
-								<input id="namebox" type="text">
-							<p>Email</p>
-								<input id="emailbox" type="text">
-							<p>Message</p>
-								<input id="messagebox" type="text">
-						</fieldset>
-					</form>
-				</div>
-
-			<div class="connect">
-				<h3>Connect with Me</h3>
-				<hr id=hr2>
-					<img id="github" src="./assets/images/github.png">
-					<img id="linkedin" src="./assets/images/linkedin.png">
-					<img id="stack" src="./assets/images/stack.png">
-			</div>
-
+		<section id="gap1">
 		</section>
+
+		<!-- Contact Message Box -->
+		<section id="contacttext">
+			<h2>Contact</h2>
+			<hr id="hr1">
+			<form id="textentrybox">
+				<p>Name</p>
+					<input id="namebox" type="text">
+				<p>Email</p>
+					<input id="emailbox" type="text">
+				<p>Message</p>
+					<input id="messagebox" type="text">
+			</form>
+		</section>
+
+		<!-- Connect with Me box -->
+		<section class="connect">
+			<h3>Connect with Me</h3>
+			<hr id=hr2>
+			<img id="github" src="./assets/images/github.png">
+			<img id="linkedin" src="./assets/images/linkedin.png">
+			<img id="stack" src="./assets/images/stack.png">
+		</section>
+	
+	<!--this section is for the teal line-->
+		<section id="gap2">
+		</section>
+
+	</section>
 
 	<footer class="footer">
 		© Copyright 2017 Jonathan Thompson
