@@ -50,6 +50,8 @@ p {
     margin-right: 0;
 }
 
+/*Classes*/
+
 .connect {
 	float: right;
 	width: 17.5%;
@@ -78,18 +80,50 @@ p {
 	border-color: #4aaaa5;
 }
 
+.imagecontainerleft {
+	float: left;
+	height: 250px;
+	width: 375px;
+	position: relative;
+}
+
+.imagecontainerright {
+	float: right;
+	height: 250px;
+	width: 375px;
+	position: relative;
+}
+
+.tag {
+	position: absolute;
+	left: 20px;
+	bottom: 50px;
+	height: 60px;
+	width: 335px;
+	margin-bottom: -20px;
+	background-color: #4aaaa5;
+	text-align: center;
+}
+
+.portfolioname {
+	color: #ffffff;
+}
+
+/*Individual IDs*/
+
 #backgroundimg {
 	background-image: url(../images/background.png);
 }
 
+/*Header Items*/
+
 #headerbar {
-	position: fixed;
 	padding-bottom: 45px;
+	height: 99px;
 }
 
 #headername {
 	float: left;
-	position: absolute;
 	margin-left: 15%;
 	margin-top: 0%;
 	padding: 36px;
@@ -100,18 +134,16 @@ p {
 
 #headerlinks {
 	float: right;
-	position: relative;
 	margin-right: 16%;
 	padding-top: 35px;
 	font-family: arial;
-	color: #c0c0c0;
+	color: #cccccc;
+	word-spacing: 10px;
 }
 
-#gap1 {
-	padding: 70px;
-}
+/*Content Boxes*/
 
-#aboutme {
+#contacttext {
 	float: left;
 	width: 50%;
 	height: 40%;
@@ -123,11 +155,19 @@ p {
 	background-color: #ffffff;
 }
 
-#hr1 {
-	width: 95%;
+#portfoliotext {
+	float: left;
+	width: 50%;
+	height: 40%;
+	margin-left: 15%;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #dddddd;
+	background-color: #ffffff;
 }
 
-#contacttext {
+#aboutme {
 	float: left;
 	width: 50%;
 	height: 40%;
@@ -144,6 +184,8 @@ p {
 	padding-right: 20px;
 }
 
+/*Textareas*/
+
 #textentrybox {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -154,6 +196,7 @@ p {
 	height: 35px;
 	resize: none;
 	line-height: 30px;
+	font-family: arial;
 }
 
 #emailbox {
@@ -161,6 +204,7 @@ p {
 	height: 35px;
 	resize: none;
 	line-height: 30px;
+	font-family: arial;
 }
 
 #messagebox {
@@ -170,6 +214,37 @@ p {
 	overflow: auto;
 }
 
+/*Buttons*/
+
+#submitbutton {
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #4aaaa5;
+	width: 120px;
+	height: 40px;
+	font-family: arial;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.17em;
+	border-width: 0px;
+}
+
+/*Header Breaks*/
+
+#hr1 {
+	width: 95%;
+	background-color: #cccccc;
+	height: 3px;
+}
+
+#hr2 {
+	width: 61%;
+	background-color: #cccccc;
+	height: 3px;
+}
+
+/*Images*/
+
 #selfimage {
 	float: left;
 	width: 175px;
@@ -177,10 +252,6 @@ p {
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-}
-
-#hr2 {
-	width: 61%;
 }
 
 #github {
@@ -198,6 +269,47 @@ p {
 	width: 50px;
 	padding-top: 0.5px;
 	padding-bottom: 2.5px;
+}
+
+#portfolio1 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio2 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio3 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio4 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+#portfolio5 {
+	
+	padding: 20px;
+	height: 250px;
+	width: 375px;
+}
+
+/*Gaps*/
+
+#gap1 {
+	padding: 20px;
 }
 
 #gap2 {
